@@ -20,6 +20,7 @@ const VideoCarousel = () => {
   }, []);
 
   const handleWatchClick = () => {
+    
     // Implement the logic for what happens when "Watch Me" is clicked
     alert('Watch Me button clicked!');
   };

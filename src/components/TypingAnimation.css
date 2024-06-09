@@ -1,0 +1,17 @@
+.typing-animation {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f1efef;
+    border-right: 2px solid #333;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink 0.7s infinite step-end;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
