@@ -51,17 +51,20 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 1.5em 7%;
-    background: rgb(17, 16, 16);
+    background: rgb(135, 90, 187);
     position: fixed;
     top: 0;
     left: 0;
-    right: 30rem;
+    /* right: 60rem; */
     z-index: 1000;
-    
+    border-radius: 20px;
+    margin-bottom: 40px;
+    width: 100%;
 }
 
 .logo img {
     width: 100px; /* Adjust the size of the logo */
+    border-radius: 60px;
 }
 
 .nav-bar {
@@ -70,7 +73,7 @@ section {
 
 .heading {
     text-align: center;
-    color: #000;
+    color: #b460db;
     text-transform: uppercase;
     padding-bottom: 1rem;
     font-size: 2rem;
@@ -83,7 +86,7 @@ section {
 
 .navigation {
     position: relative;
-    right: -3em;
+    right: 30rem;
     width: 400px;
     height: 70px;
     background: rgb(255, 255, 255);
@@ -135,12 +138,12 @@ section {
 }
 
 .navigation ul li.active a .icon:hover {
-    color: rgb(233, 134, 14);
+    color: rgb(195, 93, 204);
 }
 
 .navigation ul li a .text {
     position: absolute;
-    color: #d3ad7f;
+    color: #8e66c2;
     font-weight: 400;
     font-size: 0.75em;
     letter-spacing: 0.05em;
