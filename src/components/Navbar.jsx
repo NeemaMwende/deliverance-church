@@ -37,7 +37,7 @@ const Navbar = () => {
                     <li className="list">
                         <a href="#services">
                             <span className="icon">
-                                <i className="fas fa-church"></i>
+                                <i className="fas fa-heart"></i>
                             </span>
                             <span className="text"> Testimonials</span>
                         </a>
@@ -53,7 +53,7 @@ const Navbar = () => {
                     <li className="list">
                         <a href="#contact">
                             <span className="icon">
-                                <i className="far fa-user"></i>
+                                <i className="far fa-book"></i>
                             </span>
                             <span className="text">Give</span>
                         </a>
