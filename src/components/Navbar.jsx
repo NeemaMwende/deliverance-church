@@ -31,7 +31,15 @@ const Navbar = () => {
                             <span className="icon">
                                 <i className="fas fa-church"></i>
                             </span>
-                            <span className="text">Services</span>
+                            <span className="text"> Messages</span>
+                        </a>
+                    </li>
+                    <li className="list">
+                        <a href="#services">
+                            <span className="icon">
+                                <i className="fas fa-church"></i>
+                            </span>
+                            <span className="text"> Testimonials</span>
                         </a>
                     </li>
                     <li className="list">
@@ -40,6 +48,14 @@ const Navbar = () => {
                                 <i className="fas fa-calendar-alt"></i>
                             </span>
                             <span className="text">Events</span>
+                        </a>
+                    </li>
+                    <li className="list">
+                        <a href="#contact">
+                            <span className="icon">
+                                <i className="far fa-user"></i>
+                            </span>
+                            <span className="text">Give</span>
                         </a>
                     </li>
                     <li className="list">
