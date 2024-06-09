@@ -1,29 +1,60 @@
-import React from 'react'
-import "./Navbar.css"
-import logo1 from "../Images/dclogo.png"
+import React from 'react';
+import './Navbar.css';
+import angel from "../Images/dclogo.png";
 
 const Navbar = () => {
-  return (
-    <div className='navbar'>
-        <nav>
-            <div className='nav'>
-                <div className='logo'>
-                    <img src={logo1} width={110} height={100}/>
-                </div>
-                <div>
-                    <ul className='navbar-list'>
-                        <li className='navbar-item'><a href="">Home</a></li>
-                        <li className='navbar-item'><a href="">Themes</a></li>
-                        <li className='navbar-item'><a href="">Services</a></li>
-                        <li className='navbar-item'><a href="">Products</a></li>
-                        <li className='navbar-item'><a href="">Contact</a></li>
-                    </ul>
-                </div>
+    return (
+        <div className="header">
+            <div className="logo">
+                <img src={angel} alt="Logo" className="logo-icon" />
             </div>
-        </nav>
-      
-    </div>
-  )
-}
+            <div className="navigation">
+                <ul>
+                    <li className="list active">
+                        <a href="#home">
+                            <span className="icon">
+                                <i className="fas fa-home"></i>
+                            </span>
+                            <span className="text">Home</span>
+                        </a>
+                    </li>
+                    <li className="list">
+                        <a href="#about">
+                            <span className="icon">
+                                <i className="far fa-bookmark"></i>
+                            </span>
+                            <span className="text">About</span>
+                        </a>
+                    </li>
+                    <li className="list">
+                        <a href="#services">
+                            <span className="icon">
+                                <i className="fas fa-church"></i>
+                            </span>
+                            <span className="text">Services</span>
+                        </a>
+                    </li>
+                    <li className="list">
+                        <a href="#events">
+                            <span className="icon">
+                                <i className="fas fa-calendar-alt"></i>
+                            </span>
+                            <span className="text">Events</span>
+                        </a>
+                    </li>
+                    <li className="list">
+                        <a href="#contact">
+                            <span className="icon">
+                                <i className="far fa-user"></i>
+                            </span>
+                            <span className="text">Contact</span>
+                        </a>
+                    </li>
+                    <div className="indicator"></div>
+                </ul>
+            </div>
+        </div>
+    );
+};
 
-export default Navbar
+export default Navbar;
