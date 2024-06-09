@@ -24,7 +24,7 @@ html::-webkit-scrollbar-track {
 }
 
 body {
-    background: white;
+    background: rgb(18, 17, 20);
     height: calc(100vh - 7rem);
 }
 
@@ -51,16 +51,17 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 1.5em 7%;
-    background: white;
+    background: rgb(17, 16, 16);
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 30rem;
     z-index: 1000;
+    
 }
 
 .logo img {
-    width: 50px; /* Adjust the size of the logo */
+    width: 100px; /* Adjust the size of the logo */
 }
 
 .nav-bar {
